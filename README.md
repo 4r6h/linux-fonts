@@ -33,7 +33,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/4r6h/linux-fonts/m
 
 **Step 1**
 ```bash
-sudo pacman -S sudo tar fontconfig wget --noconfirm --needed
+sudo pacman -S tar fontconfig wget --noconfirm --needed
 ```
 **Step 2**
 ```bash
@@ -45,10 +45,21 @@ wget --no-check-certificate https://raw.githubusercontent.com/4r6h/linux-fonts/m
 
 **Step 1**
 ```bash
-sudo apt install sudo tar fontconfig wget -y
+sudo apt install tar fontconfig wget -y
 ```
 **Step 2**
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/4r6h/linux-fonts/master/Debian-font.sh -O Debian-font.sh;chmod +x Debian-font.sh;bash Debian-font.sh;rm Debian-font.sh
 ```
 
+
+### For Fedora Based All Fonts
+
+**Step 1**
+```bash
+sudo dnf install tar fontconfig wget -y
+```
+**Step 2**
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/4r6h/linux-fonts/master/Fedora-font.sh -O Fedora-font.sh;chmod +x Fedora-font.sh;bash Fedora-font.sh;rm Fedora-font.sh
+```
